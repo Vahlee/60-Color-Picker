@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <style>
+       body {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+       }
+       .red {
+        background-color: red;
+        height:100px;
+       }
+       .yellow {
+        background-color: yellow;
+        height:100px;
+       }
+       .blue {
+        background-color:blue;
+        height:100px;
+        width:100px;
+       }
+       .green {
+        background-color: green;
+        height:100px;
+        width:100px;
+       }
+       .black {
+        background-color: black;
+        height:100px;
+        width:100px;
+       }
+       .purple{
+        background-color: purple;
+        height:100px;
+        width:100px;
+       }
+       .pink {
+        background-color: pink;
+        height:100px;
+        width:100px;
+       }
+       .aqua {
+        background-color: aqua;
+        height:100px;
+        width:100px;
+       }
+       .brown {
+        background-color: brown;
+        height:100px;
+        width:100px;
+       }
+       .item {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap:5px;
+       }
+       h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1>Pick a Color</h1>
+       <div class="item">
+         <div class="items red"></div>
+         <div class="items yellow"></div>
+         <div class="items blue"></div>
+         <div class="items green"></div>
+         <div class="items black"><div class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" color="white" class="bi bi-check2" viewBox="0 0 16 16">
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg></div></div>
+         <div class="items purple"></div>
+         <div class="items pink"></div>
+         <div class="items aqua"></div>
+         <div class="items brown"></div>
+    </div>
+   </div>
+</body>
+</html>
